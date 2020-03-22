@@ -7,3 +7,83 @@ body {
   left: 0px;
   top: 135px;
 }
+
+/* Segmented Controls */
+
+/* Lines Label */
+
+body {
+  position: absolute;
+  left: 175px;
+  right: 3px;
+  top: 5px;
+  bottom: 5px;
+}
+
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+/* or 138% */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.006em;
+  color: #007AFF;
+}
+
+/* Segment */
+
+body {
+  position: absolute;
+  left: 0px;
+  right: 170px;
+  top: 0px;
+  bottom: 0px;
+  background: #007AFF;
+}
+
+
+/* Stops Label */
+
+body {
+  position: absolute;
+  left: 2px;
+  right: 172px;
+  top: 5px;
+  bottom: 5px;
+}
+
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+/* or 138% */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.006em;
+  color: #FFFFFF;
+}
+
+
+/* Divider */
+
+body {
+  position: absolute;
+  width: 1px;
+  height: 28px;
+  left: calc(50% - 1px/2 + 1px);
+  top: calc(50% - 28px/2 + 0.5px);
+  background: #007AFF;
+}
