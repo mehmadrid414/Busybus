@@ -1,0 +1,19 @@
+body {
+position: relative;
+width: 375px;
+height: 667px;
+overflow-y: scroll;
+background: #FFFFFF;
+}
+
+.container2 {
+position: absolute;
+width: 373px;
+height: 60px;
+left: 1px;
+top: 599px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-sizing: border-box;
+}
