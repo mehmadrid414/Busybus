@@ -3,260 +3,32 @@
 }
 
 body {
-  background-color:  rgb(177, 176, 174);
+  position: relative;
+  width: 375px;
+  height: 667px;
+  overflow-y: scroll;
+  background: #FFFFFF;
 }
 
 
 .container {
-  position:  relative;
-  margin:  0 auto;
-  background-color: white;
-
-  Height:  667px;
-  Width:  375px;
-  Font-size:  18px;
-
-
-}
-
-
-nav {
-  position: fixed;
-  background-color:  #2d923e;
-  height:  149px;
-  width:  375px;
-  box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
-
-
-}
-
-
-.base {
   position: absolute;
-  width:  375px;
-  height:  20px;
-  left:  0px;
-  top:  0px;
-  background-image:  url(Base.png);
-}
-
-.backarrow {
-  width:  12.27px;
-  height:  20.66px;
-  position:  absolute;
-  left:  2.13%;
-  right:  94.59%;
-  top:  16%;
-  bottom:  93.3%;
-  background-image:  url("back arrow.png");
-}
-
-.backarrow:hover {
-  position:  absolute;
-  left:  2.13%;
-  right:  94.59%;
-  top:  16%;
-  bottom:  93.3%;
-  background-color:  #d7d7d7;
-}
-h1 {
-  position:  absolute;
-  display:  inline-block;
-  width: 317px;
-  height: 22px;
-  top:  4px;
-  left:  8%;
-  font-family: "SF UI Display";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  letter-spacing: -0.0241176em;
-
-  color: #FFFFFF;
-}
-
-.input-container {
-  position: absolute;
-  display: block;
-
+  width: 375px;
+  height: 568px;
+  left: 0px;
+  top: 135px;
   background: #FFFFFF;
-  border-radius: 4px;
-  height:  40px;
-  width:  257px;
-  left:  15.73%;
-  right:  15.73%;
-  top:  34%;
-  bottom: 86.81%;
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  border-radius: 10px
 }
 
-.Search-icon {
-  margin-left:  30px;
-  align-items: center;
-  position:  relative;
-  border-style:  none;
-}
+/*Status Bar*/
 
-
-
-.input-field {
-  position:  absolute;
-  top:  9px;
-  border-style:  none;
-  font-size:  18px;
-}
-
-.Search {
-position: absolute;
-height:  18.16px;
-width:  18px;
-background-image: url("Search.png");
-background-repeat:  no-repeat;
-left: 2.72%;
-right: 90.27%;
-top: 27.5%;
-bottom: 27.1%;
-}
-
-.input-container2 {
-  position:  absolute;
-  display: block;
-  background: #FFFFFF;
-  border-radius: 4px;
-  height:  40px;
-  width:  257px;
-  left:  15.73%;
-  top:  65%;
-
-}
-
-.switcharrows {
+.statusbar {
   position: absolute;
-  background-image:  url("switcharrows.png");
-  background-repeat:  no-repeat;
-  left: 270px;
-  bottom:  12px;
+  width: 375px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
 }
-
-.switcharrows:hover {
-  position:  absolute;
-  left:  270px;
-  bottom:  12px;
-  background-color:  #d7d7d7;
-}
-
-.container2 {
-  position:  relative;
-  display:  block;
-  margin:  0 auto;
-  top:  149px;
-  height:  67px;
-  width:  375px;
-  border-bottom:  1px solid #DADADA;
-}
-
-.busnumber {
-  position:  absolute;
-  display: inline;
-  margin-left:  -31px;
-  margin-top: 20px;
-  font-size:  20px;
-  font-family:  sans-serif;
-  font-weight:  600;
-
-  background:  #C4C4C4;
-  width:  38px;
-  height:  38px;
-  margin:  0 auto;
-  border-radius:  50%;
-  left:  7px;
-  top:  13px;
-  padding:8px 0 0 4px;
-}
-
-
-.col1 {
-  position:  absolute;
-  display:  inline-block;
-  margin-left:  20px;
-  margin-top:  12px;
-  font-size:  14px;
-  font-family:  sans-serif;
-  font-weight: lighter;
-}
-
-.col1-2 {
-  position:  absolute;
-  display:  inline-block;
-  margin-left:  20px;
-  margin-top:  33px;
-  font-size:  14px;
-  font-weight:600 ;
-  font-family:  sans-serif;
-
-}
-
-.col2 {
-  position:  absolute;
-  display:  inline-block;
-  margin-top:  11px;
-  margin-left:  205px;
-  font-size:  14px;
-  text-align:  left;
-  font-family:  sans-serif;
-  font-weight:  lighter;
-}
-
-.col2-1 {
-  position:  absolute;
-  display:  inline-block;
-  margin-top:  33px;
-  margin-left:  205px;
-  font-size:  14px;
-  text-align:  left;
-  font-family:  sans-serif;
-  font-weight:  lighter;
-}
-
-
-.shape {
-  position:  absolute;
-  background:  #C4C4C4;
-  width:  38px;
-  height:  38px;
-  margin:  0 auto;
-  border-radius:  50%;
-  left:  10px;
-  top:  13px;
-}
-
-
-li {
-  position:  relative;
-  list-style:  none;
-  display:  inline;
-}
-
-.red {
-  color:  red;
-}
-
-.forwardarrow {
-  position: absolute;
-  display:  inline-block;
-  left:  353px;
-  margin-top:  28%;
-
-}
-
-.forwardarrow:hover {
-
-  background-color:  #d7d7d7;
-
-}
-
-.secondhalf {
-  height:  667px;
-  overflow:  hidden;
-  }
