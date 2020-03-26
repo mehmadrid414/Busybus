@@ -7,9 +7,8 @@ body {
   width: 375px;
   height: 667px;
   overflow-y: scroll;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
 }
-
 
 .container {
   position: absolute;
@@ -17,18 +16,68 @@ body {
   height: 568px;
   left: 0px;
   top: 135px;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   border: 1px solid #DADADA;
   box-sizing: border-box;
   border-radius: 10px
 }
 
+/* Back Arrow */
+.back-arrow {
+  position: absolute;
+  left: 0%;
+  right: 51.85%;
+  top: 11.11%;
+  bottom: 11.11%;
+  background: #007AFF;
+}
+
+.back-arrow-ellipse {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 14px;
+  top: 26px;
+  background-color: #FFFFFF;
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+}
+
+/* List */
+
+.container2 {
+  column-width: 185px;
+  column-count: 2;
+  background-color: #FFFFFF;
+  position: absolute;
+} 
+
+.busnumber {
+  position: absolute;
+  left: 7.58%;
+  right: 67.78%;
+  top: 21.67%;
+  bottom: 26.67%;
+}
+  
 /*Status Bar*/
 
 .statusbar {
   position: absolute;
   width: 375px;
   height: 20px;
-  left: 0px;
-  top: 0px;
+}
+
+/*Segmented Controls*/
+
+.segmented-controls {
+  position: absolute;
+  width: 340px;
+  height: 29px;
+  left: 17px;
+  top: 150px;
+  column-count: 2;
+  column-width: 170px;
+  border: 1px solid #007AFF;
+  box-sizing: border-box;
 }
