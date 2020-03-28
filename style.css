@@ -3,7 +3,7 @@
 }
 
 body {
-  position: relative;
+  position: center;
   width: 375px;
   height: 667px;
   overflow-y: scroll;
@@ -24,23 +24,12 @@ body {
 
 /* Back Arrow */
 .back-arrow {
-  position: absolute;
+  position: left;
   left: 0%;
   right: 51.85%;
   top: 11.11%;
   bottom: 11.11%;
   background: #007AFF;
-}
-
-.back-arrow-ellipse {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  left: 14px;
-  top: 26px;
-  background-color: #FFFFFF;
-  border: 1px solid #DADADA;
-  box-sizing: border-box;
 }
 
 /* List */
@@ -49,11 +38,11 @@ body {
   column-width: 185px;
   column-count: 2;
   background-color: #FFFFFF;
-  position: absolute;
+  position: center;
 } 
 
 .busnumber {
-  position: absolute;
+  position: left;
   left: 7.58%;
   right: 67.78%;
   top: 21.67%;
@@ -63,7 +52,7 @@ body {
 /*Segmented Controls*/
 
 .segmented-controls {
-  position: absolute;
+  position: center;
   width: 340px;
   height: 29px;
   left: 17px;
@@ -74,20 +63,8 @@ body {
   box-sizing: border-box;
 }
 
-.segmented-left-control {
-  position: absolute;
-  left: 0px;
-  right: 170px;
-  top: 0px;
-  bottom: 0px;
-  background: #007AFF;
-}
+/*Status Bar*/
 
-.segmented-right-control {
-  position: absolute;
-  left: 180.43px;
-  right: 7.68px;
-  top: 0px;
-  bottom: 0px;
-  background: #FFFFFF;
+.statusbar {
+  position: center;
 }
