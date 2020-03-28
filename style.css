@@ -3,7 +3,7 @@
 }
 
 body {
-  position: center;
+  position: absolute;
   width: 375px;
   height: 667px;
   overflow-y: scroll;
@@ -20,16 +20,6 @@ body {
   border: 1px solid #DADADA;
   box-sizing: border-box;
   border-radius: 10px
-}
-
-/* Back Arrow */
-.back-arrow {
-  position: left;
-  left: 0%;
-  right: 51.85%;
-  top: 11.11%;
-  bottom: 11.11%;
-  background: #007AFF;
 }
 
 /* List */
@@ -52,23 +42,35 @@ body {
 /*Segmented Controls*/
 
 .segmented-controls {
-  position: center;
-  width: 340px;
+  position: absolute;
+  width: 343px;
   height: 29px;
-  left: 17px;
-  top: 150px;
-  column-count: 2;
-  column-width: 170px;
-  border: 1px solid #007AFF;
-  box-sizing: border-box;
+  left: 10px;
+  top: 15px;
 }
 
 /*Status Bar*/
 
 .statusbar {
-  position: center;
+  position: absolute;
+  width: 375px;
+  height: 20px;
+  left: 0px;
+  top: -5px;
 }
 
 .map {
-  position: center;
+  position: absolute;
+  left: 0px;
+  top: 15px;
 }
+
+.back-arrow {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 14px;
+  top: 26px;
+}
+
+
