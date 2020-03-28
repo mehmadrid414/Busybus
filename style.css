@@ -68,3 +68,7 @@ body {
 .statusbar {
   position: center;
 }
+
+.map {
+  position: center;
+}
