@@ -30,7 +30,7 @@ body {
   height: 59px;
   background-color: #FFFFFF;
   position: center;
-  border-bottom: 1px solid #DADADA;
+  border: 1px solid #DADADA;
 } 
 
 .busnumber {
