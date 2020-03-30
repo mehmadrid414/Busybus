@@ -14,7 +14,6 @@ body {
   position: absolute;
   width: 375px;
   height: 667px;
-  left: 0.5px;
   top: 135px;
   background-color: #FFFFFF;
   border: 1px solid #DADADA;
@@ -37,10 +36,6 @@ body {
 
 .busnumber {
   position: initial;
-  left: 7.58%;
-  right: 67.78%;
-  top: 21.67%;
-  bottom: 26.67%;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -55,10 +50,6 @@ body {
 
 .col1 {
   position: initial;
-  left: 37.9%;
-  right: 6.5%;
-  top: 50%;
-  bottom: 20%;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -72,10 +63,6 @@ body {
 
 .col1-2 {
   position: initial;
-  left: 37.9%;
-  right: -57.3%;
-  top: 13.33%;
-  bottom: 50%;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
