@@ -12,7 +12,7 @@ body {
 .container {
   position: absolute;
   width: 375px;
-  height: 667px;
+  height: 532px;
   top: 135px;
   background-color: #FFFFFF;
   border: 1px solid #DADADA;
@@ -47,20 +47,7 @@ body {
   color: #000000;
 }
 
-.col1 {
-  position: initial;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 18px;
-  display: flex;
-  align-items: flex-end;
-  letter-spacing: -0.016em;
-  color: #979797;
-}
-
-.col1-2 {
+.busline {
   position: initial;
   font-family: Roboto;
   font-style: normal;
@@ -73,7 +60,20 @@ body {
   color: #000000;
 }
 
-.col2 {
+.subtitle {
+  position: initial;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.016em;
+  color: #979797;
+}
+
+.arrow {
   position: relative;
   right: -80%;
 }
