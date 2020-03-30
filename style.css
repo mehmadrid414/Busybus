@@ -3,89 +3,10 @@
 }
 
 body {
-  position: absolute;
+  position: relative;
   width: 375px;
   height: 667px;
   background-color: #FFFFFF;
-}
-
-.container {
-  position: absolute;
-  width: 375px;
-  height: 532px;
-  top: 135px;
-  background-color: #FFFFFF;
-  border: 1px solid #DADADA;
-  box-sizing: border-box;
-  border-radius: 10px;
-  padding-top: 33px;
-  padding-left: 1px;
-}
-
-/* List */
-
-.container2 {
-  left: 2.5px;
-  width: 370px;
-  height: 59px;
-  background-color: #FFFFFF;
-  position: center;
-  border: 1px solid #DADADA;
-} 
-
-.busnumber {
-  position: initial;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: -0.016em;
-  color: #000000;
-}
-
-.busline {
-  position: initial;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 17px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.0241176em;
-  color: #000000;
-}
-
-.subtitle {
-  position: initial;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 18px;
-  display: flex;
-  align-items: flex-end;
-  letter-spacing: -0.016em;
-  color: #979797;
-}
-
-.arrow {
-  position: relative;
-  right: -80%;
-}
-
-/*Segmented Controls*/
-
-.segmented-controls {
-  position: absolute;
-  width: 343px;
-  height: 29px;
-  left: 10px;
-  top: 15px;
 }
 
 /*Status Bar*/
@@ -109,3 +30,90 @@ body {
   top: 28px;
   left: 15px;
 }
+
+/*Segmented Controls*/
+
+.segmented-controls {
+  position: absolute;
+  width: 343px;
+  height: 29px;
+  left: 10px;
+  top: 15px;
+}
+
+/* List */
+
+.container {
+  position: absolute;
+  width: 375px;
+  height: 532px;
+  top: 132px;
+  background-color: #FFFFFF;
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-top: 33px;
+  padding-left: 1px;
+}
+.container2 {
+  position: absolute;
+  width: 371px;
+  height: 60px;
+  left: 2px;
+  top: 179px;
+  background-color: #FFFFFF;
+  position: initial;
+  border: 1px solid #DADADA;
+} 
+
+.busnumber {
+  position: relative;
+  left: -14.02px;
+  top: -5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  text-align: center;
+  letter-spacing: -0.016em;
+  color: #000000;
+}
+
+.busline {
+  position: relative;
+  left: 50.12px;
+  top: -60px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.0241176em;
+  color: #000000;
+}
+
+.subtitle {
+  position: relative;
+  left: 50.12px;
+  top: -80px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.016em;
+  color: #979797;
+}
+
+.arrow {
+  position: relative;
+  left: 300px;
+  top: -130px;
+}
+
