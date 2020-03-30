@@ -32,55 +32,60 @@ body {
 } 
 
 .busnumber {
-    position: initial;
-    left: 7.58%;
-    right: 67.78%;
-    top: 21.67%;
-    bottom: 26.67%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.016em;
-    color: #000000;
+  position: initial;
+  left: 7.58%;
+  right: 67.78%;
+  top: 21.67%;
+  bottom: 26.67%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.016em;
+  color: #000000;
 }
 
 .col1 {
-    position: initial;
-    left: 37.9%;
-    right: 6.5%;
-    top: 50%;
-    bottom: 20%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 18px;
-    display: flex;
-    align-items: flex-end;
-    letter-spacing: -0.016em;
-    color: #979797;
+  position: initial;
+  left: 37.9%;
+  right: 6.5%;
+  top: 50%;
+  bottom: 20%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.016em;
+  color: #979797;
 }
 
 .col1-2 {
-    position: initial;
-    left: 37.9%;
-    right: -57.3%;
-    top: 13.33%;
-    bottom: 50%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.0241176em;
-    color: #000000;
+  position: initial;
+  left: 37.9%;
+  right: -57.3%;
+  top: 13.33%;
+  bottom: 50%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.0241176em;
+  color: #000000;
+}
+
+.col2 {
+  position: relative;
+  right: -80%;
 }
 
 /*Segmented Controls*/
@@ -109,3 +114,8 @@ body {
   top: 15px;
 }
 
+.button {
+  position: fixed;
+  top: 28px;
+  left: 15px;
+}
