@@ -13,8 +13,8 @@ body {
 .container {
   position: absolute;
   width: 375px;
-  height: 568px;
-  left: 0px;
+  height: 667px;
+  left: 0.5px;
   top: 135px;
   background-color: #FFFFFF;
   border: 1px solid #DADADA;
@@ -25,10 +25,12 @@ body {
 /* List */
 
 .container2 {
-  column-width: 185px;
-  column-count: 2;
+  left: 2.5px;
+  width: 370px;
+  height: 59px;
   background-color: #FFFFFF;
   position: center;
+  border-bottom: 1px solid #DADADA;
 } 
 
 .busnumber {
