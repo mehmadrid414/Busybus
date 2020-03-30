@@ -46,7 +46,7 @@ body {
 .container {
   position: absolute;
   width: 375px;
-  height: 532px;
+  height: 667px;
   top: 132px;
   background-color: #FFFFFF;
   border: 1px solid #DADADA;
@@ -111,9 +111,35 @@ body {
   color: #979797;
 }
 
+.time {
+  position: relative;
+  left: 250px;
+  top: -135px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.minutes {
+  position: relative;
+  left: 250px;
+  top:-157px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: initial;
+  color: #000000;
+}
+
 .arrow {
   position: relative;
   left: 300px;
-  top: -130px;
+  top: -200px;
 }
-
