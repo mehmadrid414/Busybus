@@ -9,45 +9,25 @@ body {
   background-color: #FFFFFF;
 }
 
-/*Status Bar*/
-
 .statusbar {
-  position: absolute;
-  width: 375px;
-  height: 20px;
-  left: 0px;
-  top: -5px;
+  position: relative;
 }
 
 .map {
-  position: absolute;
-  left: 0px;
-  top: 15px;
+  position: relative;
+  left: 185.5px;
 }
 
-.button {
-  position: fixed;
-  top: 28px;
-  left: 15px;
-}
-
-/*Segmented Controls*/
-
-.segmented-controls {
-  position: absolute;
-  width: 343px;
-  height: 29px;
-  left: 10px;
-  top: 15px;
+.backbutton {
+  background-color: #fff;
+  padding: 20px;
 }
 
 /* List */
 
-.container {
-  position: absolute;
+.menu {
   width: 375px;
-  height: 667px;
-  top: 132px;
+  height: 540px;
   background-color: #FFFFFF;
   border: 1px solid #DADADA;
   box-sizing: border-box;
@@ -55,8 +35,14 @@ body {
   padding-top: 33px;
   padding-left: 1px;
 }
-.container2 {
-  position: absolute;
+
+.segmentedcontrols {
+  position: relative;
+  left: 185px;
+  top: -10px;
+}
+
+.bus {
   width: 371px;
   height: 60px;
   left: 2px;
@@ -68,8 +54,8 @@ body {
 
 .busnumber {
   position: relative;
-  left: -14.02px;
-  top: -5px;
+  left: 14.02px;
+  top: -10px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -83,8 +69,8 @@ body {
 
 .busline {
   position: relative;
-  left: 50.12px;
-  top: -60px;
+  left: 70.12px;
+  top: -65px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -98,8 +84,8 @@ body {
 
 .subtitle {
   position: relative;
-  left: 50.12px;
-  top: -80px;
+  left: 70.12px;
+  top: -85px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -111,32 +97,12 @@ body {
   color: #979797;
 }
 
-.time {
+.arrowright{
   position: relative;
-  left: 250px;
-  top: -137px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 22px;
-  color: #000000;
+  left: 320px;
+  top: -130px;
 }
 
-.minutes {
-  position: relative;
-  left: 250px;
-  top: -157px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 18px;
-  color: #000000;
-}
-
-.arrow {
-  position: relative;
-  left: 300px;
-  top: -200px;
+.location :hover {
+  background-color: #ccc;
 }
