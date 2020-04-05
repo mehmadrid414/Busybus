@@ -15,12 +15,11 @@ body {
 
 .map {
   position: relative;
-  left: 185.5px;
 }
 
 .backbutton {
-  background-color: #fff;
-  padding: 20px;
+  position: relative;
+  left: 14px;
 }
 
 /* List */
@@ -38,7 +37,7 @@ body {
 
 .segmentedcontrols {
   position: relative;
-  left: 185px;
+  left: 14px;
   top: -10px;
 }
 
