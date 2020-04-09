@@ -24,8 +24,10 @@
 /* List */
   
   .menu {
+  position: relative;  
   width: 375px;
   height: 540px;
+  top: -50px;
   background-color: #FFFFFF;
   border: 1px solid #DADADA;
   box-sizing: border-box;
@@ -41,7 +43,7 @@
 }
   .bus {
   width: 371px;
-  height: 60px;
+  height: 58px;
   left: 2px;
   top: 179px;
   background-color: #FFFFFF;
@@ -53,7 +55,7 @@
 .busnumber {
   position: relative;
   left: 14.02px;
-  top: -10px;
+  top: 15px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -68,7 +70,7 @@
 .busline {
   position: relative;
   left: 70.12px;
-  top: -65px;
+  top: -15px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -83,7 +85,7 @@
 .subtitle {
   position: relative;
   left: 70.12px;
-  top: -85px;
+  top: -17px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -98,7 +100,7 @@
 .time {
   position: relative;
   left: 275px;
-  top: -135px;
+  top: -55px;
   font-family: Roboto;
   font-style: normal;
   font-weight: medium;
@@ -113,11 +115,6 @@
 .arrowright{
   position: relative;
   left: 340px;
-  top: -172px;
+  top: -65px;
 }
 
-.arrowright1{
-  position: relative;
-  left: 340px;
-  top: -132px;
-}
