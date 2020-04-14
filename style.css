@@ -24,8 +24,10 @@
 /* List */
   
   .menu {
+  position: relative;  
   width: 375px;
   height: 540px;
+  top: -50px;
   background-color: #FFFFFF;
   border: 1px solid #DADADA;
   box-sizing: border-box;
@@ -33,36 +35,55 @@
   padding-top: 33px;
   padding-left: 1px;
 }
+  
   .segmentedcontrols-col1 {
-    position: relative;
-    left: 80px;
-    top: -10px;
-    border-width: 173px;
-    border-height: 29px;
-    border-color: #07AFF;
+  position: relative;
+  left: 14px;
+  top: -10px;
+  width: 173px;
+  height: 29px;
+  text-align: center;
+  border-style: solid;
+  border-color: blue;
+  border-width: 1px;
 }
+  
   .segmentedcontrols-col2 {
-    position: relative;
-    left: 240px;
-    top: -30px;
-    width: 173px;
-    height: 29px;
-}
-  .bus {
-  width: 371px;
-  height: 60px;
-  left: 2px;
-  top: 179px;
-  background-color: #FFFFFF;
-  position: initial;
-  border: 1px solid #DADADA;
-} 
+  position: relative;
+  left: 187px;
+  top: -39px;
+  width: 173px;
+  height: 29px;
+  text-align: center;
+  border-style: solid;
+  border-color: blue;
+  border-width: 1px;
 }
 
-.busnumber {
+a {
+  font-size: 20px;
+  font-weight: medium;
+  font-family: Roboto;
+  color: #07Aff;
+  text-decoration: none;
+  position: center;
+  top: initial;
+}
+
+  .bus {
+  width: 371px;
+  height: 58px;
+  top: -25px;
+  background-color: #FFFFFF;
+  position: relative;
+  border: 1px solid #DADADA;
+} 
+
+
+  .busnumber {
   position: relative;
   left: 14.02px;
-  top: -10px;
+  top: 15px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -74,10 +95,10 @@
   color: #000000;
 }
 
-.busline {
+  .busline {
   position: relative;
   left: 70.12px;
-  top: -65px;
+  top: -15px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -89,10 +110,10 @@
   color: #000000;
 }
 
-.subtitle {
+  .subtitle {
   position: relative;
   left: 70.12px;
-  top: -85px;
+  top: -17px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -104,10 +125,10 @@
   color: #979797;
 }
 
-.time {
+  .time {
   position: relative;
   left: 275px;
-  top: -135px;
+  top: -50px;
   font-family: Roboto;
   font-style: normal;
   font-weight: medium;
@@ -119,14 +140,16 @@
   color: #000000;
 }
 
-.arrowright{
+  .arrowright{
   position: relative;
   left: 340px;
-  top: -172px;
+  top: -65px;
 }
 
-.arrowright1{
+  .arrowright1{
   position: relative;
   left: 340px;
-  top: -132px;
+  top: -47px;
 }
+
+
