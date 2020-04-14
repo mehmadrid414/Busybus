@@ -26,7 +26,7 @@
   .menu {
   position: relative;  
   width: 375px;
-  height: 371px;
+  height: 391px;
   top: -320px;
   background-color: #FFFFFF;
   border: 1px solid #DADADA;
@@ -113,7 +113,7 @@ position: relative;
 width: 200px;
 height: 23px;
 left: 22px;
-top: -10px;
+top: -16px;
 font-family: Roboto;
 font-style: normal;
 font-weight: 300;
@@ -138,7 +138,7 @@ color: #000000;
   .bus1 {
   width: 371px;
   height: 58px;
-  top: -23px;
+  top: -15px;
   background-color: #FFFFFF;
   position: relative;
   border: 1px solid #DADADA;
@@ -196,7 +196,7 @@ color: #000000;
   font-family: Roboto;
   font-style: normal;
   font-weight: medium;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 18px;
   display: flex;
   align-items: flex-end;
