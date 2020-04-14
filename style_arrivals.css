@@ -1,0 +1,195 @@
+*,* :before, *:after {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 375px) {
+  body {
+  position: relative;
+  width: 375px;
+  height: 667px;
+  background-color: #FFFFFF;
+}
+  .statusbar {
+  position: relative;
+}
+  .map {
+  position: relative;
+}
+  .backbutton {
+  position: relative;
+  left: 14px;
+  top: -170px;
+}
+
+/* List */
+  
+  .menu {
+  position: relative;  
+  width: 375px;
+  height: 371px;
+  top: -50px;
+  background-color: #FFFFFF;
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-top: 33px;
+  padding-left: 1px;
+}
+
+.stoptitle {
+position: relative;
+width: 375px;
+height: 28px;
+left: 0px;
+top: -81px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.0257895em;
+color: #000000;
+}
+  
+  .segmentedcontrols-col1 {
+  position: relative;
+  left: 14px;
+  top: -10px;
+  width: 173px;
+  height: 29px;
+  text-align: center;
+  border-style: solid;
+  border-color: blue;
+  border-width: 1px;
+}
+  
+  .segmentedcontrols-col2 {
+  position: relative;
+  left: 187px;
+  top: -39px;
+  width: 173px;
+  height: 29px;
+  text-align: center;
+  border-style: solid;
+  border-color: blue;
+  border-width: 1px;
+}
+
+a {
+  font-size: 20px;
+  font-weight: medium;
+  font-family: Roboto;
+  color: #07Aff;
+  text-decoration: none;
+  position: center;
+  top: initial;
+}
+
+.nextarrival {
+position: relative;
+width: 119px;
+height: 23px;
+left: 22px;
+top: -12px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+letter-spacing: 0.0542em;
+color: #000000;
+}
+
+.upcomingarrivals {
+position: relative;
+width: 178px;
+height: 23px;
+left: 23px;
+top: 62px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+letter-spacing: 0.0542105em;
+color: #000000;
+}
+
+  .bus {
+  width: 371px;
+  height: 58px;
+  top: -25px;
+  background-color: #FFFFFF;
+  position: relative;
+  border: 1px solid #DADADA;
+} 
+
+
+  .busnumber {
+  position: relative;
+  left: 14.02px;
+  top: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  text-align: center;
+  letter-spacing: -0.016em;
+  color: #000000;
+}
+
+  .busline {
+  position: relative;
+  left: 70.12px;
+  top: -15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.0241176em;
+  color: #000000;
+}
+
+  .subtitle {
+  position: relative;
+  left: 70.12px;
+  top: -17px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.016em;
+  color: #979797;
+}
+
+  .time {
+  position: relative;
+  left: 275px;
+  top: -50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: medium;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.016em;
+  color: #000000;
+}
