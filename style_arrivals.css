@@ -18,7 +18,7 @@
   .backbutton {
   position: relative;
   left: 14px;
-  top: -170px;
+  top: -580px;
 }
 
 /* List */
@@ -27,7 +27,7 @@
   position: relative;  
   width: 375px;
   height: 371px;
-  top: -50px;
+  top: -320px;
   background-color: #FFFFFF;
   border: 1px solid #DADADA;
   box-sizing: border-box;
@@ -40,8 +40,8 @@
 position: relative;
 width: 375px;
 height: 28px;
-left: 0px;
-top: -81px;
+left: 93.75px;
+top: -20px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -58,24 +58,26 @@ color: #000000;
   position: relative;
   left: 14px;
   top: -10px;
-  width: 173px;
+  width: 165px;
   height: 29px;
   text-align: center;
   border-style: solid;
   border-color: blue;
   border-width: 1px;
+  border-radius: 10px;
 }
   
   .segmentedcontrols-col2 {
   position: relative;
   left: 187px;
   top: -39px;
-  width: 173px;
+  width: 165px;
   height: 29px;
   text-align: center;
   border-style: solid;
   border-color: blue;
   border-width: 1px;
+  border-radius: 10px;
 }
 
 a {
@@ -93,7 +95,7 @@ position: relative;
 width: 119px;
 height: 23px;
 left: 22px;
-top: -12px;
+top: -25px;
 font-family: Roboto;
 font-style: normal;
 font-weight: 300;
@@ -108,10 +110,10 @@ color: #000000;
 
 .upcomingarrivals {
 position: relative;
-width: 178px;
+width: 200px;
 height: 23px;
-left: 23px;
-top: 62px;
+left: 22px;
+top: -10px;
 font-family: Roboto;
 font-style: normal;
 font-weight: 300;
@@ -127,12 +129,20 @@ color: #000000;
   .bus {
   width: 371px;
   height: 58px;
-  top: -25px;
+  top: -23px;
   background-color: #FFFFFF;
   position: relative;
   border: 1px solid #DADADA;
 } 
 
+  .bus1 {
+  width: 371px;
+  height: 58px;
+  top: -23px;
+  background-color: #FFFFFF;
+  position: relative;
+  border: 1px solid #DADADA;
+} 
 
   .busnumber {
   position: relative;
