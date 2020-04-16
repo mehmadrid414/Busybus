@@ -21,6 +21,12 @@
   top: -580px;
 }
 
+.buttons {
+  position: relative;
+  left: 310px;
+  top: -625px;
+}
+
 /* List */
   
   .menu {
