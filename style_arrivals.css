@@ -60,42 +60,6 @@ letter-spacing: -0.0257895em;
 color: #000000;
 }
   
-  .segmentedcontrols-col1 {
-  position: relative;
-  left: 14px;
-  top: -10px;
-  width: 165px;
-  height: 29px;
-  text-align: center;
-  border-style: solid;
-  border-color: blue;
-  border-width: 1px;
-  border-radius: 10px;
-}
-  
-  .segmentedcontrols-col2 {
-  position: relative;
-  left: 187px;
-  top: -39px;
-  width: 165px;
-  height: 29px;
-  text-align: center;
-  border-style: solid;
-  border-color: blue;
-  border-width: 1px;
-  border-radius: 10px;
-}
-
-a {
-  font-size: 20px;
-  font-weight: medium;
-  font-family: Roboto;
-  color: #07Aff;
-  text-decoration: none;
-  position: center;
-  top: initial;
-}
-
 .nextarrival {
 position: relative;
 width: 119px;
