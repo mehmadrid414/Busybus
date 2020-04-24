@@ -73,7 +73,7 @@ a {
   .bus {
   width: 371px;
   height: 58px;
-  top: 25px;
+  top: -25px;
   background-color: #FFFFFF;
   position: relative;
   border: 1px solid #DADADA;
