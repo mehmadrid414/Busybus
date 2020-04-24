@@ -23,15 +23,15 @@
 
 /* List */
   
-  .menu {
+    .menu {
   position: relative;
   width: 375px;
   height: 57px;
-  top: -50px;
+  top: -15px;
   background-color: #FFFFFF;
   border: 1px solid #DADADA;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 5px;
   padding-top: 33px;
   padding-left: 1px;
 }
