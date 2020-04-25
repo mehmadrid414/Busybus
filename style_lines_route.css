@@ -24,7 +24,7 @@
   .buttons {
   position: relative;
   left: 310px;
-  top: -625px;
+  top: -215px;
 }
   
 /* List */
@@ -33,7 +33,7 @@
   position: relative;  
   width: 375px;
   height: 540px;
-  top: -115px;
+  top: -205px;
   background-color: #FFFFFF;
   border: 1px solid #DADADA;
   box-sizing: border-box;
