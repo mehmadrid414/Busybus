@@ -18,13 +18,13 @@
   .backbutton {
   position: relative;
   left: 14px;
-  top: -170px;
+  top: -580px;
 }
 
 .buttons {
   position: relative;
   left: 310px;
-  top: -215px;
+  top: -630px;
 }
 
 /* List */
@@ -33,7 +33,7 @@
   position: relative;  
   width: 375px;
   height: 136px;
-  top: 193px;
+  top: -215px;
   background-color: #FFFFFF;
   border: 1px solid #DADADA;
   box-sizing: border-box;
