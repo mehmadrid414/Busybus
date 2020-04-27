@@ -72,8 +72,8 @@ a {
   font-family: Roboto;
   color: #07Aff;
   text-decoration: none;
-  position: center;
-  top: initial;
+  position: relative;
+  top: 3px;
 }
 
   .bus {
